@@ -10,7 +10,7 @@ const Vocabulary = (props) => {
   return (
     <div
       className="row border border-dark rounded"
-      style={{ margin: "20px 0", padding: "20px 5px 20px 20px" }}
+      style={{ margin: "20px 0", padding: "20px 5px 20px 5px" }}
     >
       <div className="col-sm">
         <VocabularyImage src={image} alt={term} />

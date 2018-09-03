@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { aslAlphabet } from './data/alphabet';
+import aslAlphabet from './data/alphabet';
 
 import Vocabulary from './components/Vocabulary';
 

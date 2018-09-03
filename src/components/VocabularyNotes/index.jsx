@@ -23,13 +23,22 @@ class VocabularyNotes extends React.Component {
   render() {
     const { showNotes } = this.state;
     return (
-      <div
-        role="button"
-        tabIndex={0}
-        onClick={this.toggleShowNotes}
-        onKeyPress={this.toggleShowNotes}
-      >
-        { showNotes ? this.renderNotes() : <p><em>Click to Reveal</em></p> }
+      <div className="alert alert-secondary" style={{ height: "100%" }} >
+        <h1>Notes / Hints</h1>
+        <button
+          className={ showNotes
+            ? "btn btn-outline-info btn-sm"
+            : "btn btn-outline-danger btn-sm"
+          }
+          onClick={this.toggleShowNotes}
+          style={{ marginBottom: "20px" }}
+        >
+          { showNotes ? "Hide Notes" : "Show Notes" }
+        </button>
+        { showNotes
+          ? this.renderNotes()
+          : <p><em>Use button to toggle on notes.</em></p>
+        }
       </div>
     );
   }

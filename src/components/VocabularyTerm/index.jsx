@@ -23,13 +23,21 @@ class VocabularyTerm extends React.Component {
   render() {
     const { showTerm } = this.state;
     return (
-      <div
-        role="button"
-        tabIndex={0}
-        onClick={this.toggleShowTerm}
-        onKeyPress={this.toggleShowTerm}
-      >
-        { showTerm ? this.renderTerm() : <h1>Click to Reveal</h1> }
+      <div className="text-center">
+        <button
+          className={ showTerm
+            ? "btn btn-info btn-sm"
+            : "btn btn-danger btn-sm"
+          }
+          onClick={this.toggleShowTerm}
+          style={{ marginBottom: "20px" }}
+        >
+          { showTerm ? "Hide Answer" : "Show Answer" }
+        </button>
+        { showTerm
+          ? this.renderTerm()
+          : <h1 className="text-center">???</h1>
+        }
       </div>
     );
   }

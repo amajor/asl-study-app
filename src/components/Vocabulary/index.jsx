@@ -8,10 +8,18 @@ const Vocabulary = (props) => {
   const { term, image, notes } = props;
 
   return (
-    <div>
-      <VocabularyImage src={image} alt={term} />
-      <VocabularyTerm term={term} />
-      <VocabularyNotes notes={notes} />
+    <div
+      className="row border border-dark rounded"
+      style={{ margin: "20px 0", padding: "20px 5px 20px 20px" }}
+    >
+      <div className="col-sm">
+        <VocabularyImage src={image} alt={term} />
+        <div className="spacer" style={{ height: "40px" }} ></div>
+        <VocabularyTerm term={term} />
+      </div>
+      <div className="col-sm-4">
+        <VocabularyNotes notes={notes} />
+      </div>
     </div>
   );
 };

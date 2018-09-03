@@ -7,11 +7,15 @@ class VocabularyImage extends React.Component {
 
     if(src !== '') {
       return (
-        <img src={src} alt={alt} />
+        <img
+          className="img-fluid rounded mx-auto d-block"
+          src={src}
+          alt={alt}
+        />
       );
     } else {
       return (
-        <p>No image was provided</p>
+        <p className="text-center">No image was provided</p>
       );
     }
   }

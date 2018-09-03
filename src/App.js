@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import { aslAlphabet } from './data/alphabet';
 
 import Vocabulary from './components/Vocabulary';
@@ -14,13 +13,18 @@ class App extends Component {
     );
 
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">ASL Study App</h1>
-        </header>
-        <h2>{section_name}</h2>
-        <p>{section_description}</p>
-        <div>{section_vocabulary}</div>
+      <div className="container" style={{ padding: "20px" }}>
+        <div className="row">
+          <div className="col-sm">
+            <h1>{section_name}</h1>
+            <p>{section_description}</p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm">
+            {section_vocabulary}
+          </div>
+        </div>
       </div>
     );
   }

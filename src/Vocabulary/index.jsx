@@ -10,7 +10,7 @@ const Vocabulary = (props) => {
     <div>
       <img src={image} alt={term} />
       <VocabularyTerm term={term} />
-      <VocabularyNotes term={notes} />
+      <VocabularyNotes notes={notes} />
     </div>
   );
 };
@@ -25,7 +25,7 @@ Vocabulary.propTypes = {
 };
 
 Vocabulary.defaultProps = {
-  image: 'https://usercontent1.hubstatic.com/8683028.png',
+  image: 'https://s3.amazonaws.com/magoosh-company-site/wp-content/uploads/hs/files/2016/06/05142353/homer-studying.gif',
   notes: 'Hints about signing the letter A',
 };
 

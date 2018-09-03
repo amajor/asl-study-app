@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { aslAlphabet } from './data/alphabet';
 
-import Vocabulary from './Vocabulary';
+import Vocabulary from './components/Vocabulary';
 
 class App extends Component {
   render() {

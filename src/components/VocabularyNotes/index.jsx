@@ -17,14 +17,24 @@ class VocabularyNotes extends React.Component {
 
   renderNotes() {
     const { notes } = this.props;
-    return <p><em>{notes}</em></p>;
+    return <em>{notes}</em>;
   }
 
-  render() {
+  renderButton() {
+    const { notes } = this.props;
     const { showNotes } = this.state;
-    return (
-      <div className="alert alert-secondary" style={{ height: "100%" }} >
-        <h1>Notes / Hints</h1>
+    if (notes === '') {
+      return (
+        <button
+          className="btn btn-outline-danger btn-sm"
+          style={{ marginBottom: "20px" }}
+          disabled="disabled"
+        >
+          No Notes Available
+        </button>
+      );
+    } else {
+      return (
         <button
           className={ showNotes
             ? "btn btn-outline-info btn-sm"
@@ -35,10 +45,22 @@ class VocabularyNotes extends React.Component {
         >
           { showNotes ? "Hide Notes" : "Show Notes" }
         </button>
-        { showNotes
-          ? this.renderNotes()
-          : <p><em>Use button to toggle on notes.</em></p>
-        }
+      );
+    }
+  }
+
+  render() {
+    const { showNotes } = this.state;
+    return (
+      <div className="alert alert-secondary" style={{ height: "100%" }} >
+        <h1>Notes / Hints</h1>
+        { this.renderButton() }
+        <p>
+          { showNotes
+            ? this.renderNotes()
+            : <em>Use button to toggle on notes and tips, when available.</em>
+          }
+        </p>
       </div>
     );
   }
@@ -50,7 +72,7 @@ VocabularyNotes.propTypes = {
 };
 
 VocabularyNotes.defaultProps = {
-  notes: 'No notes are available for this term.',
+  notes: '',
 };
 
 export default VocabularyNotes;

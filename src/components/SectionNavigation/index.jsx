@@ -15,18 +15,23 @@ class SectionNavigation extends React.Component {
 
   getNextItemIndex() {
     const { currentItemIndex } = this.state;
-    this.setState({ currentItemIndex: currentItemIndex + 1 });
+    const newIndex = currentItemIndex + 1;
+    this.setState({ currentItemIndex: newIndex });
+    this.props.onButtonClick(newIndex);
   }
 
   getPreviousItemIndex() {
     const { currentItemIndex } = this.state;
-    this.setState({ currentItemIndex: currentItemIndex - 1 });
+    const newIndex = currentItemIndex - 1;
+    this.setState({ currentItemIndex: newIndex });
+    this.props.onButtonClick(newIndex);
   }
 
   getRandomItemIndex() {
-    const { currentItemIndex, numberOfItems } = this.state;
-    let newIndex = Math.floor(Math.random() * ( numberOfItems ));
+    const { numberOfItems } = this.state;
+    const newIndex = Math.floor(Math.random() * ( numberOfItems ));
     this.setState({ currentItemIndex: newIndex });
+    this.props.onButtonClick(newIndex);
   }
 
   render() {
@@ -65,6 +70,8 @@ class SectionNavigation extends React.Component {
 SectionNavigation.propTypes = {
   /** The array of items for this section. */
   sectionArray: PropTypes.array.isRequired,
+  /** Handles passing value back on click of any button. */
+  onButtonClick: PropTypes.func.isRequired,
 };
 
 export default SectionNavigation;

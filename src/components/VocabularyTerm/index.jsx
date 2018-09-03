@@ -10,6 +10,12 @@ class VocabularyTerm extends React.Component {
     this.toggleShowTerm = this.toggleShowTerm.bind(this);
   }
 
+  componentDidUpdate(prevProps) {
+    if (this.props.term !== prevProps.term) {
+      this.setState({ showTerm: false });
+    }
+  }
+
   toggleShowTerm() {
     const { showTerm } = this.state;
     this.setState({ showTerm: !showTerm });

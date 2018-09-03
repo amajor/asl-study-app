@@ -9,12 +9,13 @@
   },
   "homepage": "http://amajor.github.io/asl-study-app",
   "private": true,
-  "dependencies": {
-    "gh-pages": "^1.2.0",
-    "prop-types": "^15.6.2",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-scripts": "1.1.5"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/amajor/asl-study-app.git"
+  },
+  "bugs": {
+    "url" : "https://github.com/amajor/asl-study-app/issues",
+    "email" : "hello@alisonmajor.me"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,6 +26,13 @@
     "eject": "react-scripts eject",
     "lint": "eslint ./src/**/*.js*",
     "lint:fix": "eslint ./src/**/*.js* --fix"
+  },
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.5"
   },
   "devDependencies": {
     "eslint": "^5.5.0",

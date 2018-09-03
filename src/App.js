@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import aslAlphabet from './data/alphabet';
+import aslNumbers from './data/numbers';
 
 import Vocabulary from './components/Vocabulary';
 import SectionNavigation from './components/SectionNavigation';
@@ -7,11 +8,20 @@ import SectionNavigation from './components/SectionNavigation';
 class App extends Component {
   constructor(props) {
     super(props);
+    const alphabetArray = aslAlphabet().vocabulary;
+    const numberArray = aslNumbers().vocabulary;
+    const allTermsArray = numberArray.concat(alphabetArray);
+
     this.state = {
-      currentSection: aslAlphabet(),
+      currentSection: {
+        name: "All Items",
+        description: "All items shuffled together. Currently includes the alphabet and numbers.",
+        vocabulary: allTermsArray,
+      },
       currentItemIndex: 0,
-      numberOfItems: aslAlphabet().vocabulary.length,
+      numberOfItems: allTermsArray.length,
     };
+
     this.handleClick = this.handleClick.bind(this);
   }
 
@@ -23,9 +33,7 @@ class App extends Component {
     const { currentSection, currentItemIndex } = this.state;
     const section_name = currentSection.name;
     const section_description = currentSection.description;
-
     const section_array = currentSection.vocabulary
-
     let current_item = section_array[currentItemIndex];
 
     return (

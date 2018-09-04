@@ -10,7 +10,7 @@ class App extends Component {
     super(props);
     const alphabetArray = aslAlphabet().vocabulary;
     const numberArray = aslNumbers().vocabulary;
-    const allTermsArray = numberArray.concat(alphabetArray);
+    const allTermsArray = alphabetArray.concat(numberArray);
 
     this.state = {
       currentSection: {

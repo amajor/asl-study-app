@@ -101,7 +101,7 @@ import number99 from './images/numbers/99.gif';
 import number100 from './images/numbers/100.gif';
 
 const aslNumbers = () => ({
-  section: 'Numbers',
+  name: 'Numbers',
   description: 'Numbers 1 through 100.',
   vocabulary: [
     {

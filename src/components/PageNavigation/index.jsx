@@ -3,10 +3,14 @@ import { NavLink } from "react-router-dom";
 
 class PageNavigation extends Component {
   render() {
+    const navLinkStyle = {
+      textDecoration: 'none',
+      color: '#ffffff',
+    };
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <span className="navbar-brand" >
-          <NavLink to="/">
+          <NavLink to="/" style={navLinkStyle}>
             ASL
           </NavLink>
         </span>
@@ -18,21 +22,21 @@ class PageNavigation extends Component {
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
               <span className="nav-link">
-                <NavLink to="/all">
+                <NavLink to="/all" style={navLinkStyle}>
                   All Terms
                 </NavLink>
               </span>
             </li>
             <li className="nav-item">
               <span className="nav-link">
-                <NavLink to="/alphabet">
+                <NavLink to="/alphabet" style={navLinkStyle}>
                   Alphabet
                 </NavLink>
               </span>
             </li>
             <li className="nav-item">
               <span className="nav-link">
-                <NavLink to="/numbers">
+                <NavLink to="/numbers" style={navLinkStyle}>
                   Numbers
                 </NavLink>
               </span>

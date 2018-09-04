@@ -9,8 +9,8 @@ This was made for my own personal use. It is not an official resource.
 You can find the application at https://amajor.github.io/asl-study-app/, but
 here is a list of some of the contents of the application for study.
 
-* [Alphabet](https://amajor.github.io/asl-study-app/)
-* Numbers 1-100 _(planned)_
+* [Alphabet](https://amajor.github.io/asl-study-app/#/alphabet)
+* [Numbers 1-100](https://amajor.github.io/asl-study-app/#/numbers)
 * Chapter 1 _(planned)_
 * Chapter 2 _(planned)_
 * Chapter 3 _(planned)_

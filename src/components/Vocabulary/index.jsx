@@ -35,7 +35,7 @@ Vocabulary.propTypes = {
 
 Vocabulary.defaultProps = {
   image: '',
-  notes: '',
+  notes: [],
 };
 
 export default Vocabulary;

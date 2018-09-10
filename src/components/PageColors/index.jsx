@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Section from "../Section"
 import aslColors from '../../data/colors';
 
-class Colors extends Component {
+class PageColors extends Component {
   render() {
     return (
       <Section section={aslColors()} />
@@ -10,4 +10,4 @@ class Colors extends Component {
   }
 }
 
-export default Colors;
+export default PageColors;

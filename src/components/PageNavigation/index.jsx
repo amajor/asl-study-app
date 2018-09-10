@@ -48,6 +48,13 @@ class PageNavigation extends Component {
                 </NavLink>
               </span>
             </li>
+            <li className="nav-item">
+              <span className="nav-link">
+                <NavLink to="/lesson1" style={navLinkStyle}>
+                  Lesson 1
+                </NavLink>
+              </span>
+            </li>
           </ul>
         </div>
       </nav>

@@ -9,6 +9,7 @@ import PageAllTerms from './components/PageAllTerms';
 import PageAlphabet from './components/PageAlphabet';
 import PageNumbers from './components/PageNumbers';
 import PageColors from './components/PageColors';
+import PageLesson1 from './components/PageLesson1';
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
                 <Route path="/alphabet" component={PageAlphabet}/>
                 <Route path="/numbers" component={PageNumbers}/>
                 <Route path="/colors" component={PageColors}/>
+                <Route path="/lesson1" component={PageLesson1}/>
               </div>
             </div>
           </div>

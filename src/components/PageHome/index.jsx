@@ -30,6 +30,13 @@ class PageHome extends Component {
                 </button>
               </NavLink>
             </p>
+            <p>
+              <NavLink to="/colors">
+                <button type="button" class="btn btn-outline-success btn-lg">
+                  Colors
+                </button>
+              </NavLink>
+            </p>
           </div>
         </div>
       </div>

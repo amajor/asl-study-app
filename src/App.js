@@ -8,6 +8,7 @@ import PageHome from './components/PageHome';
 import PageAllTerms from './components/PageAllTerms';
 import PageAlphabet from './components/PageAlphabet';
 import PageNumbers from './components/PageNumbers';
+import PageColors from './components/PageColors';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
                 <Route path="/all" component={PageAllTerms}/>
                 <Route path="/alphabet" component={PageAlphabet}/>
                 <Route path="/numbers" component={PageNumbers}/>
+                <Route path="/colors" component={PageColors}/>
               </div>
             </div>
           </div>

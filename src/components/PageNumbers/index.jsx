@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Section from "../Section"
 import aslNumbers from '../../data/numbers';
 
-class Numbers extends Component {
+class PageNumbers extends Component {
   render() {
     return (
       <Section section={aslNumbers()} />
@@ -10,4 +10,4 @@ class Numbers extends Component {
   }
 }
 
-export default Numbers;
+export default PageNumbers;

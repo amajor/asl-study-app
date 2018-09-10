@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Section from "../Section"
 import aslAlphabet from '../../data/alphabet';
 
-class Alphabet extends Component {
+class PageAlphabet extends Component {
   render() {
     return (
       <Section section={aslAlphabet()} />
@@ -10,4 +10,4 @@ class Alphabet extends Component {
   }
 }
 
-export default Alphabet;
+export default PageAlphabet;

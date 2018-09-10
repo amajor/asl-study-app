@@ -3,7 +3,7 @@ import Section from "../Section"
 import aslAlphabet from '../../data/alphabet';
 import aslNumbers from '../../data/numbers';
 
-class AllTerms extends Component {
+class PageAllTerms extends Component {
   render() {
     const alphabetArray = aslAlphabet().vocabulary;
     const numberArray = aslNumbers().vocabulary;
@@ -21,4 +21,4 @@ class AllTerms extends Component {
   }
 }
 
-export default AllTerms;
+export default PageAllTerms;

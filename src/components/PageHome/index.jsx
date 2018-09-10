@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 
-class Home extends Component {
+class PageHome extends Component {
   render() {
     return (
       <div className="container" style={{ padding: "20px" }}>
@@ -37,4 +37,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default PageHome;

@@ -11,12 +11,14 @@ here is a list of some of the contents of the application for study.
 
 * [Alphabet](https://amajor.github.io/asl-study-app/#/alphabet)
 * [Numbers 1-100](https://amajor.github.io/asl-study-app/#/numbers)
-* Chapter 1 _(planned)_
-* Chapter 2 _(planned)_
-* Chapter 3 _(planned)_
-* Chapter 4 _(planned)_
-* Chapter 5 _(planned)_
-* Chapter 6 _(planned)_
+* [Colors](https://amajor.github.io/asl-study-app/#/colors)
+* [Classifiers](https://amajor.github.io/asl-study-app/#/classifiers)
+* [Lesson 1](https://amajor.github.io/asl-study-app/#/lesson1)
+* [Lesson 2](https://amajor.github.io/asl-study-app/#/lesson2)
+* [Lesson 3](https://amajor.github.io/asl-study-app/#/lesson3)
+* [Lesson 4](https://amajor.github.io/asl-study-app/#/lesson4)
+* [Lesson 5](https://amajor.github.io/asl-study-app/#/lesson5)
+* [Lesson 6](https://amajor.github.io/asl-study-app/#/lesson6)
 
 ## Suggestions / Corrections
 

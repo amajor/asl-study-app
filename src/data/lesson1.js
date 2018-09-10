@@ -37,7 +37,9 @@ const aslLesson1 = () => ({
     }, {
       term: 'HARD-OF-HEARING',
       partsOfSpeech: 'adjective',
-      notes: 'H-shaped hand',
+      notes: [
+        'H-shaped hand',
+      ],
       image: 'http://asl.amajorendeavor.com/lesson-1/temp-hard-of-hearing.png',
     }, {
       term: 'HE, SHE, IT, him, her',

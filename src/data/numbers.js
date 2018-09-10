@@ -125,19 +125,27 @@ const aslNumbers = () => ({
     }, {
       term: '6',
       image: number6,
-      notes: 'When counting numbers six through nine, 6 starts with the smallest finger, working up across the hand.',
+      notes: [
+        'When counting numbers six through nine, 6 starts with the smallest finger, working up across the hand.',
+      ],
     }, {
       term: '7',
       image: number7,
-      notes: 'When counting numbers six through nine, 6 starts with the smallest finger, working up across the hand.',
+      notes: [
+        'When counting numbers six through nine, 6 starts with the smallest finger, working up across the hand.',
+      ],
     }, {
       term: '8',
       image: number8,
-      notes: 'When counting numbers six through nine, 6 starts with the smallest finger, working up across the hand.',
+      notes: [
+        'When counting numbers six through nine, 6 starts with the smallest finger, working up across the hand.',
+      ],
     }, {
       term: '9',
       image: number9,
-      notes: 'When counting numbers six through nine, 6 starts with the smallest finger, working up across the hand.',
+      notes: [
+        'When counting numbers six through nine, 6 starts with the smallest finger, working up across the hand.',
+      ],
     }, {
       term: '10',
       image: number10,
@@ -411,7 +419,9 @@ const aslNumbers = () => ({
     }, {
       term: '100',
       image: number100,
-      notes: "The letter 'C' represents one hundred in Roman numerals.",
+      notes: [
+        "The letter 'C' represents one hundred in Roman numerals.",
+      ],
     },
   ],
 });

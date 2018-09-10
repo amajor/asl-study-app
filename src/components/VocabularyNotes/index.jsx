@@ -17,7 +17,7 @@ class VocabularyNotes extends React.Component {
 
   renderNotes() {
     const { notes } = this.props;
-    return <em>{notes}</em>;
+    return notes.map((note) => (<p><em>{note}</em></p>));
   }
 
   renderButton() {
@@ -68,11 +68,11 @@ class VocabularyNotes extends React.Component {
 
 VocabularyNotes.propTypes = {
   /** Notes or clues to help memorize the term. */
-  notes: PropTypes.string,
+  notes: PropTypes.array,
 };
 
 VocabularyNotes.defaultProps = {
-  notes: '',
+  notes: [],
 };
 
 export default VocabularyNotes;

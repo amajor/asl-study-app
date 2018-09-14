@@ -6,7 +6,13 @@ class PageNavigation extends Component {
     const navLinkStyle = {
       textDecoration: 'none',
       color: '#ffffff',
+      cursor: 'pointer',
     };
+    const navDropdownStyle = {
+      textDecoration: 'none',
+      color: '#212529',
+    };
+
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <span className="navbar-brand" >
@@ -27,75 +33,83 @@ class PageNavigation extends Component {
                 </NavLink>
               </span>
             </li>
-            <li className="nav-item">
-              <span className="nav-link">
-                <NavLink to="/alphabet" style={navLinkStyle}>
-                  Alphabet
-                </NavLink>
-              </span>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                style={navLinkStyle}
+              >
+                Categories
+              </a>
+              <div class="dropdown-menu">
+                <span className="nav-link">
+                  <NavLink to="/alphabet" style={navDropdownStyle}>
+                    Alphabet
+                  </NavLink>
+                </span>
+                <span className="nav-link">
+                  <NavLink to="/classifiers" style={navDropdownStyle}>
+                    Classifiers
+                  </NavLink>
+                </span>
+                <span className="nav-link">
+                  <NavLink to="/colors" style={navDropdownStyle}>
+                    Colors
+                  </NavLink>
+                </span>
+                <span className="nav-link">
+                  <NavLink to="/numbers" style={navDropdownStyle}>
+                    Numbers
+                  </NavLink>
+                </span>
+              </div>
             </li>
-            <li className="nav-item">
-              <span className="nav-link">
-                <NavLink to="/numbers" style={navLinkStyle}>
-                  Numbers
-                </NavLink>
-              </span>
-            </li>
-            <li className="nav-item">
-              <span className="nav-link">
-                <NavLink to="/colors" style={navLinkStyle}>
-                  Colors
-                </NavLink>
-              </span>
-            </li>
-            <li className="nav-item">
-              <span className="nav-link">
-                <NavLink to="/classifiers" style={navLinkStyle}>
-                  Classifiers
-                </NavLink>
-              </span>
-            </li>
-            <li className="nav-item">
-              <span className="nav-link">
-                <NavLink to="/lesson1" style={navLinkStyle}>
-                  Lesson 1
-                </NavLink>
-              </span>
-            </li>
-            <li className="nav-item">
-              <span className="nav-link">
-                <NavLink to="/lesson2" style={navLinkStyle}>
-                  Lesson 2
-                </NavLink>
-              </span>
-            </li>
-            <li className="nav-item">
-              <span className="nav-link">
-                <NavLink to="/lesson3" style={navLinkStyle}>
-                  Lesson 3
-                </NavLink>
-              </span>
-            </li>
-            <li className="nav-item">
-              <span className="nav-link">
-                <NavLink to="/lesson4" style={navLinkStyle}>
-                  Lesson 4
-                </NavLink>
-              </span>
-            </li>
-            <li className="nav-item">
-              <span className="nav-link">
-                <NavLink to="/lesson5" style={navLinkStyle}>
-                  Lesson 5
-                </NavLink>
-              </span>
-            </li>
-            <li className="nav-item">
-              <span className="nav-link">
-                <NavLink to="/lesson6" style={navLinkStyle}>
-                  Lesson 6
-                </NavLink>
-              </span>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                style={navLinkStyle}
+              >
+                ASL 1
+              </a>
+              <div class="dropdown-menu">
+                <span class="dropdown-item">
+                  <NavLink to="/lesson1" style={navDropdownStyle}>
+                    Lesson 1
+                  </NavLink>
+                </span>
+                <span className="dropdown-item">
+                  <NavLink to="/lesson2" style={navDropdownStyle}>
+                    Lesson 2
+                  </NavLink>
+                </span>
+                <span className="dropdown-item">
+                  <NavLink to="/lesson3" style={navDropdownStyle}>
+                    Lesson 3
+                  </NavLink>
+                </span>
+                <span className="dropdown-item">
+                  <NavLink to="/lesson4" style={navDropdownStyle}>
+                    Lesson 4
+                  </NavLink>
+                </span>
+                <span className="dropdown-item">
+                  <NavLink to="/lesson5" style={navDropdownStyle}>
+                    Lesson 5
+                  </NavLink>
+                </span>
+                <span className="dropdown-item">
+                  <NavLink to="/lesson6" style={navDropdownStyle}>
+                    Lesson 6
+                  </NavLink>
+                </span>
+              </div>
             </li>
           </ul>
         </div>

@@ -5,7 +5,7 @@ class PageNavigation extends Component {
   render() {
     const navLinkStyle = {
       textDecoration: 'none',
-      color: '#ffffff',
+      color: 'rgba(0,0,0,0.5)',
       cursor: 'pointer',
     };
     const navDropdownStyle = {
@@ -14,7 +14,10 @@ class PageNavigation extends Component {
     };
 
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav
+        className="navbar navbar-expand-lg navbar-light bg-cyan"
+        style={{backgroundColor: "#e3f2fd"}}
+      >
         <span className="navbar-brand" >
           <NavLink to="/" style={navLinkStyle}>
             ASL

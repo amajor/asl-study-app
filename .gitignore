@@ -9,6 +9,9 @@
 # production
 /build
 
+# images (too many to have GitHub manage)
+src/data/images/*
+
 # misc
 .DS_Store
 .env.local

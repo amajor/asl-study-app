@@ -89,13 +89,13 @@ const aslLesson12 = () => ({
       image: 'http://asl.amajorendeavor.com/lesson-12/temp-rich.png',
     }, {
       term: 'SAME',
-      image: 'http://asl.amajorendeavor.com/lesson-12/temp-same.png',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-same-1.png',
+    }, {
+      term: 'SAME',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-same-2.png',
     }, {
       term: 'SATISFY',
       image: 'http://asl.amajorendeavor.com/lesson-12/temp-satisfy.png',
-    }, {
-      term: 'SAVE',
-      image: 'http://asl.amajorendeavor.com/lesson-12/temp-save-2.png',
     }, {
       term: 'SCARE',
       image: 'http://asl.amajorendeavor.com/lesson-12/temp-scare.png',

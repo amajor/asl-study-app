@@ -114,6 +114,50 @@ class PageNavigation extends Component {
                 </span>
               </div>
             </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                style={navLinkStyle}
+              >
+                ASL 2
+              </a>
+              <div class="dropdown-menu">
+                <span className="dropdown-item">
+                  <NavLink to="/lesson7" style={navDropdownStyle}>
+                    Lesson 7
+                  </NavLink>
+                </span>
+                <span className="dropdown-item">
+                  <NavLink to="/lesson8" style={navDropdownStyle}>
+                    Lesson 8
+                  </NavLink>
+                </span>
+                <span className="dropdown-item">
+                  <NavLink to="/lesson9" style={navDropdownStyle}>
+                    Lesson 9
+                  </NavLink>
+                </span>
+                <span className="dropdown-item">
+                  <NavLink to="/lesson10" style={navDropdownStyle}>
+                    Lesson 10
+                  </NavLink>
+                </span>
+                <span className="dropdown-item">
+                  <NavLink to="/lesson11" style={navDropdownStyle}>
+                    Lesson 11
+                  </NavLink>
+                </span>
+                <span className="dropdown-item">
+                  <NavLink to="/lesson12" style={navDropdownStyle}>
+                    Lesson 12
+                  </NavLink>
+                </span>
+              </div>
+            </li>
           </ul>
         </div>
       </nav>

@@ -1,0 +1,135 @@
+const aslLesson12 = () => ({
+  name: 'Lesson 12',
+  description: 'Vocabulary words from Lesson 12.',
+  vocabulary: [
+    {
+      term: 'ANNOUNCE',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-announce.png',
+    }, {
+      term: 'BURN, FIRE',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-burn-fire.png',
+    }, {
+      term: 'CREAM',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-cream.png',
+    }, {
+      term: 'DISAPPOINT',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-disappoint.png',
+    }, {
+      term: 'DREAM',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-dream.png',
+    }, {
+      term: 'EARLY',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-early.png',
+      tags: ['timelines'],
+    }, {
+      term: 'EARTH',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-earth.png',
+    }, {
+      term: 'ENTER',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-enter.png',
+    }, {
+      term: 'GONE',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-gone.png',
+    }, {
+      term: 'HURT',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-hurt.png',
+    }, {
+      term: 'KITCHEN',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-kitchen.png',
+    }, {
+      term: 'KNOW THAT',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-know-that.png',
+    }, {
+      term: 'LIE',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-lie.png',
+    }, {
+      term: 'LOUD',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-loud.png',
+    }, {
+      term: 'LUCKY',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-lucky.png',
+    }, {
+      term: 'MAGAZINE',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-magazine.png',
+    }, {
+      term: 'MISS',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-miss.png',
+    }, {
+      term: 'MISUNDERSTOOD',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-misunderstood.png',
+    }, {
+      term: 'MOON',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-moon.png',
+    }, {
+      term: 'NOISE',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-noise.png',
+    }, {
+      term: 'POOR',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-poor.png',
+    }, {
+      term: 'PROBLEM',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-problem.png',
+    }, {
+      term: 'PROMISE',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-promise.png',
+    }, {
+      term: 'QUIET',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-quiet.png',
+    }, {
+      term: 'RELIEVED',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-relieved.png',
+    }, {
+      term: 'REST',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-rest.png',
+    }, {
+      term: 'RESTROOM',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-restroom.png',
+    }, {
+      term: 'RICH',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-rich.png',
+    }, {
+      term: 'SAME',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-same.png',
+    }, {
+      term: 'SATISFY',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-satisfy.png',
+    }, {
+      term: 'SAVE',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-save-2.png',
+    }, {
+      term: 'SCARE',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-scare.png',
+    }, {
+      term: 'STREET',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-street.png',
+    }, {
+      term: 'STRICT',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-strict.png',
+    }, {
+      term: 'SUN',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-sun.png',
+    }, {
+      term: 'SUNRISE',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-sunrise.png',
+      tags: ['timelines'],
+    }, {
+      term: 'SUNSET',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-sunset.png',
+      tags: ['timelines'],
+    }, {
+      term: 'THIRSTY',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-thirsty.png',
+    }, {
+      term: 'VOICE',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-voice.png',
+    }, {
+      term: 'WAKE UP',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-wake-up.png',
+    }, {
+      term: 'WET',
+      image: 'http://asl.amajorendeavor.com/lesson-12/temp-wet.png',
+    },
+  ],
+});
+
+export { aslLesson12 as default };

@@ -102,7 +102,7 @@ import number100 from './images/numbers/100.gif';
 
 const aslNumbers = () => ({
   name: 'Numbers',
-  description: 'Numbers 1 through 100.',
+  description: 'Numbers 1 through 100. Also 1,000 and 1,000,000.',
   vocabulary: [
     {
       term: '0',
@@ -422,6 +422,12 @@ const aslNumbers = () => ({
       notes: [
         "The letter 'C' represents one hundred in Roman numerals.",
       ],
+    }, {
+      term: '1,000',
+      image: 'https://asl.amajorendeavor.com/numbers/temp-1000.png',
+    }, {
+      term: '1,000,000',
+      image: 'https://asl.amajorendeavor.com/numbers/temp-1000000.png',
     },
   ],
 });
